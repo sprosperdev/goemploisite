@@ -126,6 +126,7 @@ h6 {
   transition: all 0.5s;
   padding: 22px 0;
   background: #fff;
+  
 }
 
 #header.header-scrolled {
@@ -163,6 +164,7 @@ h6 {
 .navbar {
   padding: 0;
   
+  
 }
 
 .navbar ul {
@@ -171,10 +173,13 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
+  
+  
 }
 
 .navbar li {
   position: relative;
+  /* color: red; */
 }
 
 .navbar a,
@@ -184,8 +189,8 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 18px;
-  font-weight: 400;
-  /* color: #bd1515; */
+  font-weight: 600;
+  color: #02026d;
   white-space: nowrap;
   transition: 0.3s;
   
@@ -203,6 +208,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #3498db;
+  
 }
 
 .navbar .getstarted,
@@ -252,7 +258,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #3498db;
+  color: #3477db;
 }
 
 .navbar .dropdown:hover>ul {
